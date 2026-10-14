@@ -1,26 +1,32 @@
 # The Bagh Initiative
 
-Static website for `bahginitiative.com`, based on the supplied Bagh Initiative vision document.
+CodeIgniter 4 website for `bahginitiative.com`, based on the supplied Bagh Initiative vision document.
 
-## Local preview
+## Requirements
 
-```bash
-python3 -m http.server 8080
-```
+- PHP 8.2 or newer
+- Composer
 
-Open <http://localhost:8080>.
+## Local setup
+
+1. Run `composer install`.
+2. Copy `env` to `.env` if local overrides are needed.
+3. Run `php spark serve`.
+4. Open <http://localhost:8080>.
+
+The application currently has no database requirement.
 
 ## Deployment
 
-1. Create the domain or subaccount in cPanel and point its document root at the intended `public_html` directory.
-2. Copy `deploy.env.example` to `deploy.env` and set the SSH alias and absolute document root.
+1. Configure the domain document root to the deployed application's `public/` directory.
+2. Copy `deploy.env.example` to `deploy.env` and set the SSH alias and remote paths.
 3. Run `./publish.sh`.
-4. Point the domain's A/AAAA records at the server, then issue an SSL certificate in cPanel/AutoSSL.
+4. Enable HTTPS through the server's SSL/AutoSSL tooling.
 
-`deploy.env` is intentionally ignored by Git.
+`deploy.env`, `.env`, and runtime files under `writable/` are excluded from Git.
 
 ## Content follow-ups
 
 - Add the public contact address and prayer-update link.
-- Connect the Give call to the final donation page when it is available.
-- Add a privacy policy before collecting contact information through a form or analytics platform.
+- Connect the giving call to the final donation page.
+- Add a privacy policy before adding forms or analytics.

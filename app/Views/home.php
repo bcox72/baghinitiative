@@ -6,8 +6,9 @@
   <meta name="description" content="The Bagh Initiative unites churches, mission agencies, and donors to help bring the Gospel to Bengali Muslims.">
   <meta name="theme-color" content="#322c1d">
   <title>The Bagh Initiative | Partnering to Reach the Bengali People</title>
-  <link rel="icon" href="assets/bagh-eye.jpg">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://bahginitiative.com/">
+  <link rel="icon" href="<?= base_url('assets/bagh-eye.jpg') ?>">
+  <link rel="stylesheet" href="<?= base_url('styles.css') ?>">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -31,7 +32,7 @@
         <div class="hero-actions"><a class="button button-gold" href="#join">Join the movement</a><a class="text-link" href="#story">Discover our story <span aria-hidden="true">&#8595;</span></a></div>
       </div>
       <div class="hero-art reveal" aria-label="Watercolor illustration of Bangladesh with a Bengal tiger eye">
-        <img src="assets/bagh-eye.jpg" alt="Watercolor map of Bangladesh featuring a Bengal tiger eye">
+        <img src="<?= base_url('assets/bagh-eye.jpg') ?>" alt="Watercolor map of Bangladesh featuring a Bengal tiger eye">
         <span class="hero-word" aria-hidden="true">বাঘ</span>
       </div>
       <p class="hero-note">Bagh <span lang="bn">(বাঘ)</span> means “tiger” in Bengali.</p>
@@ -49,7 +50,7 @@
     </section>
 
     <section id="story" class="section story">
-      <div class="story-media reveal"><img src="assets/gathering-crop.jpg" alt="Church and mission leaders gathering around tables"><p>It began in Phoenix in 2024.</p></div>
+      <div class="story-media reveal"><img src="<?= base_url('assets/gathering-crop.jpg') ?>" alt="Church and mission leaders gathering around tables"><p>It began in Phoenix in 2024.</p></div>
       <div class="story-copy reveal">
         <p class="eyebrow">How it began</p><h2>When churches unite, heaven moves.</h2>
         <p>In 2024, several church and mission organization leaders based in Phoenix, Arizona began praying together with one shared burden: to reach those with the least access to the Gospel.</p>
@@ -76,7 +77,7 @@
 
     <section id="partners" class="section partners">
       <div><p class="eyebrow">Better together</p><h2>Collaboration is at the heart of Bagh.</h2><p>Churches and donors support trusted ministries working alongside Bengali leaders, accelerating Gospel-centered ministry with a shared commitment to prayer and stewardship.</p></div>
-      <figure class="partner-board"><img src="assets/partners-crop.jpg" alt="Logos of Bagh Initiative partner churches and organizations"><figcaption>Partner churches and organizations, primarily based in Arizona.</figcaption></figure>
+      <figure class="partner-board"><img src="<?= base_url('assets/partners-crop.jpg') ?>" alt="Logos of Bagh Initiative partner churches and organizations"><figcaption>Partner churches and organizations, primarily based in Arizona.</figcaption></figure>
     </section>
 
     <section id="join" class="join">
@@ -90,6 +91,6 @@
   </main>
 
   <footer><a class="brand footer-brand" href="#top"><span class="brand-small">The</span><span class="brand-name">Bagh</span><span class="brand-small">Initiative</span></a><p>Partnering to reach the Bengali people.</p><p class="fine">© <span id="year"></span> The Bagh Initiative</p></footer>
-  <script src="script.js"></script>
+  <script src="<?= base_url('script.js') ?>"></script>
 </body>
 </html>
