@@ -6,7 +6,7 @@
   <meta name="description" content="The Bagh Initiative unites churches, mission agencies, and donors to help bring the Gospel to Bengali Muslims.">
   <meta name="theme-color" content="#322c1d">
   <title>The Bagh Initiative | Partnering to Reach the Bengali People</title>
-  <link rel="canonical" href="https://bahginitiative.com/">
+  <link rel="canonical" href="https://baghinitiative.org/">
   <link rel="icon" href="<?= base_url('assets/bagh-eye.jpg') ?>">
   <link rel="stylesheet" href="<?= base_url('styles.css') ?>">
 </head>

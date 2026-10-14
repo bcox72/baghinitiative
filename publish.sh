@@ -12,7 +12,7 @@ source deploy.env
 : "${REMOTE_APP_DIR:?REMOTE_APP_DIR is required}"
 : "${PHP_BIN:?PHP_BIN is required}"
 
-echo "Publishing bahginitiative.com to ${SERVER_ALIAS}..."
+echo "Publishing baghinitiative.org to ${SERVER_ALIAS}..."
 
 rsync -avz --delete \
   --exclude='.env' \

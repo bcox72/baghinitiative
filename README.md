@@ -1,6 +1,6 @@
 # The Bagh Initiative
 
-CodeIgniter 4 website for `bahginitiative.com`, based on the supplied Bagh Initiative vision document.
+CodeIgniter 4 website for `baghinitiative.org`, based on the supplied Bagh Initiative vision document.
 
 ## Requirements
 
